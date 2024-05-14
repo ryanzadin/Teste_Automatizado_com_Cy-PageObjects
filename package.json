@@ -8,7 +8,7 @@
   },
   "author": "ernestosbarbosa",
   "license": "ISC",
-  "dependencies": {
-    "cypress": "^13.6.3"
+  "devDependencies": {
+    "cypress": "^13.9.0"
   }
 }

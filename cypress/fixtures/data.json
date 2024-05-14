@@ -1,4 +1,12 @@
 {
-  "email": "cliente@ebac.art.br",
-  "senha": "GD*peToHNJ1#c$sgk08EaYJQ"
+  "firstName": "Ryan",
+  "lastName": "Dulko",
+  "phoneNumber": "11973629174",
+  "email": "Ryaetws@test.com.br",
+  "password": "teste4263",
+  "rePassword": "teste4263",
+  "cep": "02563010",
+  "estado": "SP",
+  "cidade": "São Paulo",
+  "endereço": "Rua Das Aguas Claras"
 }

@@ -2,7 +2,7 @@
 
 const { homePage } = require("../support/pages/home.page")
 const loginPage = require("../support/pages/login.page")
-const { email, senha } = require('../fixtures/data.json')
+const { email, password } = require('../fixtures/data.json')
 const { profilePage } = require("../support/pages/profile.page")
 
 describe('Teste de Autenticação', () => {
@@ -14,8 +14,8 @@ describe('Teste de Autenticação', () => {
 
   it('deve fazer o login com sucesso', () => {
     homePage.openMenu('Account')
-    loginPage.login(email, senha)
+    loginPage.login(email,password)
     homePage.openMenu('Account')
-    profilePage.customerName().should('have.text', 'EBAC Cliente')
+    profilePage.customerName().should('have.text','Dulko Ryan')
   })
 })

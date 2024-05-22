@@ -1,0 +1,15 @@
+{
+    "success": true,
+    "message": "login successfully",
+    "data": {
+        "_id": "6643b15749f74b6d2fcf1b8e",
+        "phone": "11973629174",
+        "role": "user",
+        "profile": {
+            "firstName": "Ryan",
+            "lastName": "Dulko"
+        },
+        "email": "ryaetws@test.com.br",
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjY2NDNiMTU3NDlmNzRiNmQyZmNmMWI4ZSIsImVtYWlsIjoicnlhZXR3c0B0ZXN0LmNvbS5iciIsInBob25lIjoiMTE5NzM2MjkxNzQiLCJyb2xlIjoidXNlciJ9LCJpYXQiOjE3MTYzOTU4NDcsImV4cCI6MTcxNjQ4MjI0N30.8rWBHNKgSSrGOV7jbzHx3Y9m2Sc3kcXC3FAr5LR4H8g"
+    }
+}

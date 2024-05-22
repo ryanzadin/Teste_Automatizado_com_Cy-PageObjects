@@ -10,8 +10,6 @@ describe('Fazer checkout e adcionar produtos ao carrinho', () => {
     beforeEach(() => {
         cy.setCookie('ebacStoreVersion', 'v2', { domain: 'lojaebac.ebaconline.art.br' })
         cy.visit('/')
-        cy.clearCookies()
-        cy.getCookies().should('be.empty')
     });
 
     it('Deve adcionar produtos ao carrinho', () => {

@@ -1,7 +1,7 @@
 {
-  "name": "cy-pageobjects",
+  "name": "cy-intercept",
   "version": "1.0.0",
-  "description": "Exemplo de PageObjects",
+  "description": "Intercept implementado",
   "main": "index.js",
   "scripts": {
     "test": "npx cypress run"

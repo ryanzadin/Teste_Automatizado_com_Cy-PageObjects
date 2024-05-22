@@ -7,4 +7,9 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
   },
+  reporter: 'mochawesome',
+  reporterOptions: {
+    reporterFilename: "[name]-result",
+    html: false
+  }
 });

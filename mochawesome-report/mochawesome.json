@@ -5,9 +5,9 @@
     "passes": 2,
     "pending": 0,
     "failures": 0,
-    "start": "2024-05-22T18:23:04.636Z",
-    "end": "2024-05-22T18:23:10.625Z",
-    "duration": 5989,
+    "start": "2024-06-19T01:37:56.544Z",
+    "end": "2024-06-19T01:38:03.170Z",
+    "duration": 6626,
     "testsRegistered": 2,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "41b66ab4-6ec1-4040-a5c5-67da84f79c43",
+      "uuid": "97e5da04-baf4-4d8c-ad4c-76fa5cb5ceb8",
       "title": "",
       "fullFile": "cypress\\e2e\\4interceptTest.cy.js",
       "file": "cypress\\e2e\\4interceptTest.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "d6a414de-0607-44a5-a66c-9b3cd65db544",
+          "uuid": "02af509f-be52-4a37-9383-0387b40b56ea",
           "title": "Fazer checkout e adcionar produtos ao carrinho",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "login test intercept",
               "fullTitle": "Fazer checkout e adcionar produtos ao carrinho login test intercept",
               "timedOut": null,
-              "duration": 3874,
+              "duration": 4196,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -47,8 +47,8 @@
               "context": null,
               "code": "cy.intercept('POST', '**/public/authUser', {\n  fixture: 'users.json'\n}).as('usuarioLog');\nhomePage.openMenu('Account');\nloginPage.login(email, password);\nhomePage.openMenu('Account');\nprofilePage.customerName().should('have.text', 'Dulko Ryan');",
               "err": {},
-              "uuid": "f51aaeba-17b0-4e08-8517-05dc18e840d6",
-              "parentUUID": "d6a414de-0607-44a5-a66c-9b3cd65db544",
+              "uuid": "a197cdeb-2a1b-4d56-93bc-1480181b4df3",
+              "parentUUID": "02af509f-be52-4a37-9383-0387b40b56ea",
               "isHook": false,
               "skipped": false
             },
@@ -56,7 +56,7 @@
               "title": "login test intercept nome do usuario",
               "fullTitle": "Fazer checkout e adcionar produtos ao carrinho login test intercept nome do usuario",
               "timedOut": null,
-              "duration": 1949,
+              "duration": 2228,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -65,21 +65,21 @@
               "context": null,
               "code": "cy.intercept('POST', '**/public/authUser', {\n  fixture: 'noUserName.json'\n}).as('noNameUsuarioLog');\nhomePage.openMenu('Account');\nloginPage.login(email, password);\nhomePage.openMenu('Account');\nprofilePage.customerName();",
               "err": {},
-              "uuid": "243d6a4d-dbe4-45b9-b32b-9e85eddb40e7",
-              "parentUUID": "d6a414de-0607-44a5-a66c-9b3cd65db544",
+              "uuid": "df610d23-b37e-44ba-872e-4334e11a1ff1",
+              "parentUUID": "02af509f-be52-4a37-9383-0387b40b56ea",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "f51aaeba-17b0-4e08-8517-05dc18e840d6",
-            "243d6a4d-dbe4-45b9-b32b-9e85eddb40e7"
+            "a197cdeb-2a1b-4d56-93bc-1480181b4df3",
+            "df610d23-b37e-44ba-872e-4334e11a1ff1"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 5823,
+          "duration": 6424,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
